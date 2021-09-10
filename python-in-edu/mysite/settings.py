@@ -30,7 +30,8 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['python-in-edu.herokuapp.com', '127.0.0.1', 'education.python.org']
+#ALLOWED_HOSTS = ['python-in-edu.herokuapp.com', '127.0.0.1', 'education.python.org']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
